@@ -1,0 +1,74 @@
+.cabeçalho {
+    padding: 1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container_imagem {
+    padding: 0 2em;
+}
+
+.container_paginas {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 20em;
+}
+
+.container_paginas_opção {
+    padding: 1em;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container_paginas_link {
+    text-decoration: none;
+    color:  var(--cinza-claro);
+}
+
+.container_botoes {
+    padding: 0 3em;
+}
+
+.container_botão_entrar {
+    margin-right: 1em;
+    border: transparent;
+    background: var(--branco);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-claro);
+    padding: 0.5em 1em;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.container_botão_entrar:hover {
+    background-color: var(--cinza-claro);
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+}
+
+.container_botão_cadastrar {
+    margin-right: 1em;
+    border: 1px solid var(--vinho);
+    border-radius: 8px;
+    background: var(--vinho);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--branco);
+    padding: 0.5em 1em;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.container_botão_cadastrar:hover {
+    background-color: var(--cinza-claro);
+    border: 1px solid var(--cinza-claro);
+    color: white;
+    padding: 0.5em 1em;
+}
