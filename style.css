@@ -1,5 +1,6 @@
 @import url("styles/header.css");
 @import url("styles/sobreNos.css");
+@import url("styles/metricas.css");
 
 :root {
     --fonte: "Inter";
