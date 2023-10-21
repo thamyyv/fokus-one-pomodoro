@@ -1,0 +1,71 @@
+.container_vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    margin: 7em 25em;
+}
+
+.vagas {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--vinho);
+}
+
+.vagas_titulo {
+    font-size: 44px;
+    font-weight: 600;
+    color: var(--cinza-escuro);
+}
+
+.vagas_texto {
+    color: var(--cinza-claro);
+    text-align: center;
+}
+
+.vagas_imagem {
+    margin-top: 2em;
+    width: 200%;
+}
+
+.cargos {
+    display: flex;
+    justify-content: center;  
+    flex-direction: column;
+}
+
+.cargos_item {
+    width: 900px;
+    
+}
+
+.cargos_item_opcao {
+    color: var(--cinza-escuro);
+    font-size: 20px;
+    font-weight: 500;
+    margin: 3em 0;
+}
+
+.opcao_vaga {
+    margin-bottom: 1em;
+    border: 1px solid var(--cinza-rodape);
+    border-radius: 16px;
+    padding: 2em;
+}
+
+.cargos_item_vaga {
+    color: var(--cinza-escuro);
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+
+.descricao {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2em;
+    margin-top: 2em;
+    color: var(--cinza-claro);
+    font-weight: 500;
+    font-size: 16px;
+}
