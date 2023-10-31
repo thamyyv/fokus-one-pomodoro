@@ -2,6 +2,7 @@
 @import url("styles/sobreNos.css");
 @import url("styles/metricas.css");
 @import url("styles/vagas.css");
+@import url("styles/depoimento.css");
 
 :root {
     --fonte: "Inter";
