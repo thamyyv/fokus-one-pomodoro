@@ -3,6 +3,7 @@
 @import url("styles/metricas.css");
 @import url("styles/vagas.css");
 @import url("styles/depoimento.css");
+@import url("styles/rodape.css");
 
 :root {
     --fonte: "Inter";
